@@ -1,0 +1,23 @@
+.datepicker-modal{
+  position: fixed !important;
+}
+
+.loading-react {
+  /* some styles to position the modal at the center of the page */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  line-height: 0;
+
+
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+
+  background: rgba(0, 0, 0, 0.5);
+
+  /* needed styles for the overlay */
+  z-index: 9999; /* keep on top of other elements on the page */
+}
